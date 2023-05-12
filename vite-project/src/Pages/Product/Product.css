@@ -1,0 +1,64 @@
+.MainContainerOfProductPage{
+    height: 150vh;
+    width: 100%;
+}
+.HandBagText{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: #68d964;
+
+}
+
+.Items{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.itemsCard{
+    height: 300px;
+    width: 300px;
+    border: 2px solid rgb(255, 255, 255);
+    padding:10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    margin-top: 10px;
+}
+.ProductTitle{
+    color: #000000;
+}
+
+
+/* CSS */
+.button-1 {
+    margin-top: 10px;
+  background-color: #7fbd37;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #171516;
+}

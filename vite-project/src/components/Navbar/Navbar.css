@@ -1,0 +1,40 @@
+.Navbar{
+    display: flex;
+    justify-content:space-between;
+height: 50px;
+background-color: beige;
+box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.LogoContainer{
+    cursor: pointer;   
+
+    display: flex;
+    padding-top: 5px;
+    padding-left: 20px;
+    justify-content: center;
+}
+.LogoName{
+    color: rgba(35, 151, 20, 0.874);
+    padding-top: 6px;
+}
+
+.CartContainer{
+    width: 60px;
+    display: flex;
+    padding-left: 20px;
+    margin-top: 7px;
+}
+
+.CartIcon{
+    color: rgba(35, 151, 20, 0.874);
+    cursor: pointer;   
+}
+
+.itemLength{
+    height: 20px;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgba(255, 0, 0, 0.821);
+
+}
